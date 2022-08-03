@@ -1,0 +1,112 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-color: bisque;
+    box-sizing: border-box;
+    width: auto;
+}
+.conteiner{
+    box-sizing: border-box;
+    width: 1200px;
+    margin: auto;
+}
+
+.cabecalho h1{
+    font-size: 4rem;
+}
+.conteiner p{
+    font-size: 20px;
+}
+.conteiner h2{
+    font-size: 2.5rem;
+}
+.cabecalho h1, ul{
+    text-align: center;
+}
+.cabecalho{
+    width: 1200px;
+    margin: auto;
+}
+.cabecalho img{
+    float: right;
+    opacity: 1!important;
+}
+.cabecalho .navegacao ul li{
+    list-style-type: none;
+    display: inline;
+    margin: 0 30px 0 0;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 50px;
+    border-width: 1px;
+}
+.cabecalho .navegacao ul{
+    margin-bottom: 3.5rem;
+}
+.cabecalho .navegacao ul li:hover{
+    background-color: white;
+    transition: 0.5s;
+}
+.cabecalho .navegacao ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    
+}
+.conteiner .titulo-pag2{
+    text-align: center;
+}
+.conteiner h2{
+    margin-top: 80px;
+}
+.conteiner h1{
+    font-size: 5rem;
+}
+
+.rodape{
+    background-color: brown;
+    color: aliceblue;
+    text-align: center;
+    padding: 30px 0;
+    width: 100%;
+}
+.conteiner img{
+    display: block;
+    margin: 0px auto;
+}
+.conteiner{
+    text-align: justify;
+}
+.refs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 500px;
+    margin-bottom: 50px;
+}
+.refs a{
+    border-style: solid;
+    border-radius: 50px;
+    border-width: 1px;
+    padding: 30px;
+    border-color: brown;
+}
+.refs a:hover{
+    background-color: brown;
+    opacity: 75%;
+}
+.refs .palestra{
+    margin-top: 50px;
+}
+.refs img{
+    border-radius: 20px;
+}
+.rodape-ref{
+    position: absolute;
+    background-color: brown;
+    color: aliceblue;
+    text-align: center;
+    padding: 30px 0;
+    width: 100%;
+}
+
